@@ -34,3 +34,12 @@ run-aoc2a: aoc2a
 
 run-aoc2b: aoc2b
 	./aoc2b | hexdump
+
+
+# Day 3
+
+run-aoc3a: aoc3a.py
+	python3 aoc3a.py
+
+run-aoc3b: aoc3b.py
+	python3 aoc3b.py
