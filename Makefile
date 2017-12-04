@@ -43,3 +43,12 @@ run-aoc3a: aoc3a.py
 
 run-aoc3b: aoc3b.py
 	python3 aoc3b.py
+
+
+# Day 4
+
+run-aoc4a: aoc4a.bash
+	bash aoc4a.bash
+
+run-aoc4b: aoc4b.bash
+	bash aoc4b.bash
