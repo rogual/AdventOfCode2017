@@ -2,6 +2,7 @@
 I will be solving each puzzle from the Advent of Code 2017 in a different language. See the Makefile
 for build instructions.
 
-| Day | Language |
-|-----+----------|
-|   1 |        C |
+| Day | Language                |
+|-----+-------------------------|
+|   1 | C                       |
+|   2 | X86-64 Assembly / Linux |
