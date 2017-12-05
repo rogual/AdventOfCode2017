@@ -38,17 +38,26 @@ run-aoc2b: aoc2b
 
 # Day 3
 
-run-aoc3a: aoc3a.py
+run-aoc3a:
 	python3 aoc3a.py
 
-run-aoc3b: aoc3b.py
+run-aoc3b:
 	python3 aoc3b.py
 
 
 # Day 4
 
-run-aoc4a: aoc4a.bash
+run-aoc4a:
 	bash aoc4a.bash
 
-run-aoc4b: aoc4b.bash
+run-aoc4b:
 	bash aoc4b.bash
+
+
+# Day 5
+
+run-aoc5a:
+	cat aoc5.in | lua aoc5a.lua
+
+run-aoc5b:
+	cat aoc5.in | lua aoc5b.lua
